@@ -42,6 +42,8 @@ function suma(a, b) {
     return a + 273;
    }
 
+   module.exports = { suma, resta, multiplicar, dividir, pasarAKelvin };
+
    // Hacer las funciones accesibles en el navegador
 //    window.suma = suma;
 //    window.resta = resta;
