@@ -1,23 +1,43 @@
 // calculadora.js
 
-function sumar(a, b) {
+// function suma(a, b) {
+//     return a + b;
+// }
+  
+// function resta(a, b) {
+//     return a - b;
+// }
+
+// function multiplica(a, b) {
+//     return a * b;
+// }
+
+// function dividi(a, b) {
+//     return a / b;
+// }   
+
+// function raizCuadrada(a) {
+//     return Math.sqrt(a);
+// }
+  
+// module.exports = { suma, resta, multiplica, dividi, raizCuadrada };
+
+function suma(a, b) {
     return a + b;
-}
-  
-function restar(a, b) {
+   }
+   function resta(a, b) {
     return a - b;
-}
-
-function multiplicar(a, b) {
+   }
+   function multiplicar(a, b) {
     return a * b;
-}
-
-function dividir(a, b) {
+   }
+   function dividir(a, b) {
+    if (b === 0) {
+    throw new Error("No se puede dividir por cero");
+    }
     return a / b;
-}   
-
-function raizCuadrada(a) {
-    return Math.sqrt(a);
-}
-  
-module.exports = { sumar, restar, multiplicar, dividir, raizCuadrada };
+   }
+   // Hacer las funciones accesibles en el navegador
+   window.suma = suma;
+   window.resta = resta;
+   window.multiplicar = multip
