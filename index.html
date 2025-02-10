@@ -11,8 +11,8 @@
     <h1>Calculadora</h1>
     <input type="number" id="num1" placeholder="Número 1">
     <input type="number" id="num2" placeholder="Número 2">
-    <button onclick="calcular('suma')">Sumar</button>
-    <button onclick="calcular('resta')">Restar</button>
+    <button onclick="calcular('sumar')">Sumar</button>
+    <button onclick="calcular('restar')">Restar</button>
     <button onclick="calcular('multiplicar')">Multiplicar</button>
     <button onclick="calcular('dividir')">Dividir</button>
     <button onclick="calcular('pasarAKelvin')">Pasar a Kelvin</button>
@@ -24,8 +24,8 @@
             const num2 = parseFloat(document.getElementById("num2").value);
             let resultado;
             switch (operacion) {
-                case 'suma': resultado = suma(num1, num2); break;
-                case 'resta': resultado = resta(num1, num2); break;
+                case 'sumar': resultado = suma(num1, num2); break;
+                case 'restar': resultado = resta(num1, num2); break;
                 case 'multiplicar': resultado = multiplicar(num1, num2); break;
                 case 'dividir':
                     try {
