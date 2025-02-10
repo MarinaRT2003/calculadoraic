@@ -41,8 +41,9 @@ function suma(a, b) {
    function pasarAKelvin(a){
     return a + 273;
    }
+
    // Hacer las funciones accesibles en el navegador
-   window.suma = suma;
-   window.resta = resta;
-   window.multiplicar = multip;
-   window.pasarAKelvin = pasarAKelvin;
+//    window.suma = suma;
+//    window.resta = resta;
+//    window.multiplicar = multip;
+//    window.pasarAKelvin = pasarAKelvin;
