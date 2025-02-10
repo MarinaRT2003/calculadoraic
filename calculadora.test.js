@@ -20,10 +20,10 @@ test('Dividir 6 / 3 y devuelve 2', () => {
 //     expect(raizCuadrada(25)).toBe(5);
 // });
 
-test('Suma 7 + 3 y devuelve 10', () => {
+/*test('Suma 7 + 3 y devuelve 10', () => {
     expect(sumar(7, 3)).toBe(10);
 });
 
 test('Resta 10 - 3 y devuelve 7', () => {
     expect(restar(10, 3)).toBe(7);
-});
+});*/

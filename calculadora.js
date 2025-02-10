@@ -22,10 +22,10 @@
   
 // module.exports = { suma, resta, multiplica, dividi, raizCuadrada };
 
-function suma(a, b) {
+function sumar(a, b) {
     return a + b;
    }
-   function resta(a, b) {
+   function restar(a, b) {
     return a - b;
    }
    function multiplicar(a, b) {
@@ -42,7 +42,7 @@ function suma(a, b) {
 //     return a + 273;
 //    }
 
-   module.exports = { suma, resta, multiplicar, dividir };
+   module.exports = { sumar, restar, multiplicar, dividir };
 
    // Hacer las funciones accesibles en el navegador
 //    window.suma = suma;
