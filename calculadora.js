@@ -38,11 +38,11 @@ function suma(a, b) {
     return a / b;
    }
 
-   function pasarAKelvin(a){
-    return a + 273;
-   }
+//    function pasarAKelvin(a){
+//     return a + 273;
+//    }
 
-   module.exports = { suma, resta, multiplicar, dividir, pasarAKelvin };
+   module.exports = { suma, resta, multiplicar, dividir };
 
    // Hacer las funciones accesibles en el navegador
 //    window.suma = suma;
